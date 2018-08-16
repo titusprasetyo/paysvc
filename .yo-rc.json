@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "id.co.elevenia.paysvc",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.2.0",
+    "applicationType": "microservice",
+    "baseName": "paysvc",
+    "packageName": "id.co.elevenia.paysvc",
+    "packageFolder": "id/co/elevenia/paysvc",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "elsa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "c8ea8ab3c4e4b5fe7aab92eb74df54c29bcf6775",
+    "enableTranslation": true,
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "yarn",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "id"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
