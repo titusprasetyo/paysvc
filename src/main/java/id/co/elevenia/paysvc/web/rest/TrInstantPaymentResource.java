@@ -52,6 +52,9 @@ public class TrInstantPaymentResource {
      * @param trInstantPayment the trInstantPayment to create
      * @return the ResponseEntity with status 201 (Created) and with body the new trInstantPayment, or with status 400 (Bad Request) if the trInstantPayment has already an ID
      * @throws URISyntaxException if the Location URI syntax is incorrect
+     * 
+     * 
+     * 
      */
     @PostMapping("/tr-instant-payments")
     @Timed
