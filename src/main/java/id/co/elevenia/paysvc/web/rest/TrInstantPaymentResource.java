@@ -77,6 +77,9 @@ public class TrInstantPaymentResource {
      * or with status 400 (Bad Request) if the trInstantPayment is not valid,
      * or with status 500 (Internal Server Error) if the trInstantPayment couldn't be updated
      * @throws URISyntaxException if the Location URI syntax is incorrect
+     * 
+     * 
+     * Comment by titus
      */
     @PutMapping("/tr-instant-payments")
     @Timed
