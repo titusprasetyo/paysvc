@@ -1,0 +1,27 @@
+{
+    "name": "TrInstantPayment",
+    "fields": [
+        {
+            "fieldName": "ordNo",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "amount",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20180816074718",
+    "entityTableName": "tr_instant_payment",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "microserviceName": "paysvc"
+}

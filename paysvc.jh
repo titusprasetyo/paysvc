@@ -1,0 +1,9 @@
+entity TrInstantPayment{
+ordNo Long required,
+amount Long
+}
+
+paginate * with infinite-scroll
+paginate * with pagination
+
+service all with serviceImpl
