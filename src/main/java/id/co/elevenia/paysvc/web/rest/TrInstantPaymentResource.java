@@ -29,6 +29,8 @@ import static org.elasticsearch.index.query.QueryBuilders.*;
 /**
  * REST controller for managing TrInstantPayment.
  */
+
+
 @RestController
 @RequestMapping("/api")
 public class TrInstantPaymentResource {
